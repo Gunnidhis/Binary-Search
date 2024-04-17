@@ -3,12 +3,12 @@
 # than or equal to x.
 
 
-# intuition - if we find the array[mid] == target then it will okay and return the ans.
-#             array[mid] is less than target then it will not beneficial for us because 
-#             we are searching for greatest minimum element hence we will move right side
-#             but if array[mid] is greater than target then it might be a answer so we 
+# intuition - if we find the array[mid] == x then it will okay and return the ans.
+#             array[mid] is less than x then it will not beneficial for us because 
+#             we are searching for smallest element greater than x hence we will move right side
+#             but if array[mid] is greater than x then it might be a answer so we 
 #             should store it in a variable and continue for searching in left side beacause
-#             array is sorted and we are searching minimum grestest element. 
+#             array is sorted and we are searching smallest element greater than x
 
 
             # The code you provided is an implementation of a modified Binary Search algorithm that
