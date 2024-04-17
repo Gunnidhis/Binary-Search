@@ -43,7 +43,7 @@ if __name__ == "__main__":
 #output : 6
 
 
-# 2 Question : we have binary sorted array ( binary sorted array is defines as array which will have 
+# 2 Question : we have binary sorted array ( binary sorted array is defined as array which will have 
 #              only '0' and '1' and array is sorted i.e. all '0' are together and all '1' are together)
 #              we have to find the index of first 1 in infinite array
 
