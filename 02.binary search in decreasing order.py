@@ -1,5 +1,4 @@
-# The reverse_sorted_ie_decending_order function uses the Binary Search algorithm 
-#to search for an element x in a reverse-sorted (descending order) array nums.
+#search for an element x in a reverse-sorted (descending order) array nums.
 
 
 # intuition - because array is sorted in decreasing order so if array[mid] == x then return 
