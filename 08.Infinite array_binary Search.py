@@ -47,10 +47,10 @@ if __name__ == "__main__":
 
 
 # intuition - this question will be addition of two Questions(first occurance of element + infinite array concept using Binary Search)
-#                              1. firstly we adjust our mid according to infinite array concept
-#                              2. Apply first occurance concept in it i.e. if array[mid] == target ( in this case  target = 1 ) we will 
-#                                 continue our search because it might be a answer ( first occurance ) so store it move left side because
-#                                 lower index will be found in left side.
+#                        1. firstly we adjust our mid according to infinite array concept
+#                        2. Apply first occurance concept in it i.e. if array[mid] == target ( in this case  target = 1 )
+#                           we will continue our search because it might be a answer ( first occurance ) so store it move left side 
+#                           because lower index will be found in left side.
 
 
 
