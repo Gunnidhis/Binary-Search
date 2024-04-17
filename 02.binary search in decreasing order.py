@@ -5,7 +5,7 @@
 #             it's index but if x is smaller than array[mid] then we will search in right side( bcz 
 #             array is sorted in decreasing order so smaller element will found in right side of array)
 #             similarly if x is greater then array[mid] then we will move to left part (reason is same
-#             descriebed in bove : array is sorted in decreasing order).
+#             descriebed in above : array is sorted in decreasing order).
 
 
 # funtioning of code :
