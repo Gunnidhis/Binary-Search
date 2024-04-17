@@ -5,7 +5,22 @@
 #           You must write an algorithm that runs in O(log n) time.
 
 
-# intuition -  
+# intuition - array is some-how sorted in increasing and decreasing order so we should think about Binary Search.
+#             peak element is element which is greater element with it's neighbours i.e. array[mid] > array[mid+1]
+#             and array[mid] > array[mid -1] then return its index
+
+#             lets consider an array = [2,3,6,5] if start = 0 and end = 3 then mid = 0 + 3 // 2, mid = 1 which is 
+#             array[1] = 3, 3 is greater than 2 but smaller than 6 hence we can say 2 can never be a peak element because
+#             greater element 3 is already present and 3 is not a peak element due to the 6 so 6 might be a peak element
+#             because we know 6 is greater then 3 so there is possibility of 6 to be peak element if it will be greater 
+#             than its neighbour to right.
+
+#             *Very Important Conclusion : we will move in that direction due to which our element got fail for becominig
+#              peak element. if next element is greater than array[mid] we will move to righti.e. start = mid + 1 if prev
+#              element is greater than array[mid] we will move to left side i.e. end = mid - 1
+
+# we should also take care of edge-Cases if mid == 0 and mid == n - 1 so it will have only one neighbour i.e. 1 and n-2
+# index respectivily
 
 def peak_element(nums):
     start = 0
