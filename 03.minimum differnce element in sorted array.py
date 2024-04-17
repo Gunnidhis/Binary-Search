@@ -2,7 +2,10 @@
 #that has minimum absolute difference with the target value.
 
 #intuition - firstly think differnce will be minimum if  we substract the target value with element closest to it
-#            i.e. we will try to insert the element 
+#            i.e. we will try to insert the target value in array.( this is our assumption ) then we will 
+#            find its neighbours.
+#            conclusion : Only Both neighbours have minimum difference because small element and larger element have
+#                         last difference.
 
 def Binary_search(nums,target):
     start = 0
