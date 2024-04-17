@@ -5,7 +5,7 @@
 
 
 # intuition - if we find the array[mid] == target we will not stop our searching (line 19)
-#             because it(array[mid] might be first occurance but we will trace beforce it because array is sorted.
+#             because it(array[mid]) might be first occurance but we will trace beforce it because array is sorted.
 #             similar in the same fashion for last uccurance if we find the array[mid] == target we will not stop our searching 
 #             (line 37) because it( array[mid] ) might be last occurance but we will trace for last occurance in right side.
 
