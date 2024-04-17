@@ -7,6 +7,10 @@
 #            conclusion : Only Both neighbours have minimum difference because small element and larger element have
 #                         last difference.
 
+#  we will perform normal Binary Search if target value is present in array then it have minimum differance
+# if target value is not present then start and end pointer cross each other and give its neighbours' position
+#  when 'start' and 'end' cross each other then they are closest differnce neighbour element with given target
+
 def Binary_search(nums,target):
     start = 0
     end = len(nums)-1
