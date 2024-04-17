@@ -40,6 +40,8 @@ if __name__ == "__main__":
     ans = Position_of_element_Binary_Search(nums,target)
     print(ans)
 
+#output : 6
+
 
 # 2 Question : we have binary sorted array ( binary sorted array is defines as array which will have 
 #              only '0' and '1' and array is sorted i.e. all '0' are in first place and all '1' are in second place)
@@ -80,3 +82,5 @@ if __name__ == "__main__":
     target = 1
     ans = infinite_Binary_sorted_array(nums,target)
     print(ans)
+
+#output : 50
