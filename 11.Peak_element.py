@@ -15,9 +15,9 @@
 #             because we know 6 is greater then 3 so there is possibility of 6 to be peak element if it will be greater 
 #             than its neighbour to right.
 
-#             *Very Important Conclusion : we will move in that direction due to which our element got fail for becominig
+#             ***Very Important Conclusion : we will move in that direction due to which our element got fail for becominig
 #              peak element. if next element is greater than array[mid] we will move to righti.e. start = mid + 1 if prev
-#              element is greater than array[mid] we will move to left side i.e. end = mid - 1
+#              element is greater than array[mid] we will move to left side i.e. end = mid - 1***
 
 # we should also take care of edge-Cases if mid == 0 and mid == n - 1 so it will have only one neighbour i.e. 1 and n-2
 # index respectivily
