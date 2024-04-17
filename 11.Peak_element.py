@@ -4,6 +4,9 @@
     
 #           You must write an algorithm that runs in O(log n) time.
 
+
+# intuition -  
+
 def peak_element(nums):
     start = 0
     end = len(nums) - 1
