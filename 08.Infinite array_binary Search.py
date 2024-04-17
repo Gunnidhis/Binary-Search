@@ -44,15 +44,15 @@ if __name__ == "__main__":
 
 
 # 2 Question : we have binary sorted array ( binary sorted array is defines as array which will have 
-#              only '0' and '1' and array is sorted i.e. all '0' are in first place and all '1' are in second place)
+#              only '0' and '1' and array is sorted i.e. all '0' are together and all '1' are together)
 #              we have to find the index of first 1 in infinite array
 
 
 # intuition - this question will be addition of two Questions(first occurance of element + infinite array concept using Binary Search)
 #                        1. firstly we adjust our mid according to infinite array concept
 #                        2. Apply first occurance concept in it i.e. if array[mid] == target ( in this case  target = 1 )
-#                           we will continue our search because it might be a answer ( first occurance ) so store it move left side 
-#                           because lower index will be found in left side.
+#                           we will continue our search because it might be a answer ( first occurance ) so store it in avariable and
+#                           move left side ( i.e end = mid - 1 )  because first occurance  will be found in left side.
 
 
 
