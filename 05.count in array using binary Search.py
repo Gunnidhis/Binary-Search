@@ -1,7 +1,8 @@
 # Given a sorted array arr[] and a number x, write a function that counts 
 # the occurrences of x in arr[]. Expected time complexity is O(Logn) 
 
-
+#intuition - firstly we find the first and last index of element and
+#           'last - first + 1' will give me total count of element in array 
 
 # This Python code implements a solution to find the count of a specific element in a sorted array.
 
