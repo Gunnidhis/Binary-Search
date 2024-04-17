@@ -4,10 +4,11 @@
 
 
 # intuition - if we find the array[mid] == target then it will okay and return the ans.
-#             if target is less we should move in left part but if array[mid] is greater
-#             than target then it might be a answer so we should store it in a variable and
-#             continue for searching in left side beacause array is sorted and we are
-#             searching minimum grestest element. 
+#             array[mid] is less than target then it will not beneficial for us because 
+#             we are searching for greatest minimum element hence we will move right side
+#             but if array[mid] is greater than target then it might be a answer so we 
+#             should store it in a variable and continue for searching in left side beacause
+#             array is sorted and we are searching minimum grestest element. 
 
 
             # The code you provided is an implementation of a modified Binary Search algorithm that
