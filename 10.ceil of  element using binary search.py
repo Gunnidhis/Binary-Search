@@ -3,6 +3,13 @@
 # than or equal to x.
 
 
+# intuition - if we find the array[mid] == target then it will okay and return the ans.
+#             if target is less we should move in left part but if array[mid] is greater
+#             than target then it might be a answer so we should store it in a variable and
+#             continue for searching in left side beacause array is sorted and we are
+#             searching minimum grestest element. 
+
+
             # The code you provided is an implementation of a modified Binary Search algorithm that
             # finds the smallest element greater than or equal to the target element in a sorted array.
             
