@@ -7,7 +7,7 @@
 #            conclusion : Only Both neighbours have only minimum difference because smaller elements and larger elements have
 #                         large difference with target value
 
-#  we will perform normal Binary Search if target value is present in array then it have minimum differance with itself
+#  we will perform normal Binary Search, if target value is present in array then it have minimum differance with itself
 #  every element has minimum differance with itself i.e. '0'( example "3 - 3 ", "5 - 5" , "8 - 8" )
 #  if target value is not present then start and end pointer cross each other and give its neighbours' position
 #  when 'start' and 'end' cross each other then they are closest differnce neighbour element with given target
