@@ -4,8 +4,8 @@
 #intuition - firstly think differnce will be minimum if  we substract the target value with element closest to it
 #            i.e. we will try to insert the target value in array.( this is our assumption ) then we will 
 #            find its neighbours.
-#            conclusion : Only Both neighbours have minimum difference because smaller element and larger element have
-#                         large difference.
+#            conclusion : Only Both neighbours have only minimum difference because smaller elements and larger elements have
+#                         large difference with target value
 
 #  we will perform normal Binary Search if target value is present in array then it have minimum differance
 # if target value is not present then start and end pointer cross each other and give its neighbours' position
