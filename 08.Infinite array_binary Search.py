@@ -11,7 +11,7 @@
 # intuition - mid index is always between the start and end indices. 
 #             hence first we assume start = 0 end end = 1 
 #             update 'end' index to its double (end = end * 2 ) while array[end] index is less than target
-#             and simultaneously we update the start to end ( i.e. start = end or low = high ) 
+#             and simultaneously we update the start to end ( i.e. start = end or low = high or see line 22 ) 
 #             in the last we will have the sequence i.e. start ----- mid ----- end
 #             now we will have the start and end pointer to implement the Binary Search as usual
 
