@@ -5,7 +5,7 @@
 
 #intuition - The key idea behind this algorithm is find the index of the minimum element
 #            in a rotated sorted array.because *** (very important conclusion :) index of
-#            minimum element will give us the time of array is rotated***.
+#            minimum element will give us how many times array has been  rotated***.
 
 
 #            This algorithm has a time complexity of O(log n), where n is the length of the 
