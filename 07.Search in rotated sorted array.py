@@ -1,10 +1,10 @@
 # Given a sorted and rotated array arr[] of size N and a key, the task is to find the key in the array.
 #Note: Find the element in O(logN) time and assume that all the elements are distinct.
 
-#intuition - firstly we will find the minimum element of array then array is divided into two sorted array 
+#intuition - firstly we will find the minimum element of array then array  will be divided into two sorted array 
 #                     1 : first array will be from start to minimum element index - 1
 #                     2 : second array will be from minimum element index to end
-#            so we fill implement the Binary Search independently in both the arrays
+#            so we will implement the Binary Search independently in both the arrays
 
 
 def BinarySearch(start,end,nums,target):
