@@ -10,7 +10,7 @@
 
 # intuition - mid index is always between the start and end indices. 
 #             hence first we assume start = 0 end end = 1 
-#             increament the end index by 2 with multiplication while end index is less than target
+#             change 'end' index to its double (end = end *2 ) while end index is less than target
 #             and simultaneously we change the start to end 
 #             in the last we will have the sequence i.e. start ----- mid ----- end
 #             now we will have the start and end pointer to implement the Binary Search as usual
