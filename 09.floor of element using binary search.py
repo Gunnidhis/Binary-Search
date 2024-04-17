@@ -2,6 +2,13 @@
 # an array greater than or equal to x, and the floor is the greatest element smaller
 # than or equal to x.
 
+# intuition - if we find the array[mid] == x then it will okay and return the ans.
+#             array[mid] is greater than x then it will not beneficial for us because 
+#             we are searching for greater element smaller than x hence we will move left side
+#             but if array[mid] is smaller than x then it might be a answer so we 
+#             should store it in a variable and continue for searching in right side beacause
+#             array is sorted and we are searching grestest element less than x. 
+
 def Binary_Search(nums,target):
     start = 0 
     end = len(nums) - 1
